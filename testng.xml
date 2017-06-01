@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="Browser" value="IE" />
+		<parameter name="URL" value="https://amazon.in" />
+		<classes>
+			<class name="testScripts.TC_VerifyUserCanLoginAndLogout" />
+			<class name="testScripts.TC_VerifyUserCanCheckAmazonPayBalance" />
+			<class name="testScripts.TC_VerifyUserCanShopByCategory" />
+			<class name="testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching" />	
+			<class name="testScripts.TC_VerifyUserCanApplyPriceFilter" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

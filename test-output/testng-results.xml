@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="150853" started-at="2017-05-17T10:32:53Z" finished-at="2017-05-17T10:35:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="150853" started-at="2017-05-17T10:32:53Z" finished-at="2017-05-17T10:35:24Z">
+      <class name="testScripts.TC_VerifyUserCanCheckAmazonPayBalance">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_VerifyUserCanCheckAmazonPayBalance@6c2e1e17]" name="beforeClass" is-config="true" duration-ms="3677" started-at="2017-05-17T05:33:23Z" finished-at="2017-05-17T05:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifyUserCanCheckAmazonPayBalance()[pri:0, instance:testScripts.TC_VerifyUserCanCheckAmazonPayBalance@6c2e1e17]" name="VerifyUserCanCheckAmazonPayBalance" duration-ms="30777" started-at="2017-05-17T05:33:26Z" finished-at="2017-05-17T05:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanCheckAmazonPayBalance -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TC_VerifyUserCanCheckAmazonPayBalance@6c2e1e17]" name="afterClass" is-config="true" duration-ms="16" started-at="2017-05-17T05:33:57Z" finished-at="2017-05-17T05:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.TC_VerifyUserCanCheckAmazonPayBalance -->
+      <class name="testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching@6fb05c54]" name="beforeClass" is-config="true" duration-ms="3974" started-at="2017-05-17T05:34:31Z" finished-at="2017-05-17T05:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="VerifyUserCanAddSpecificProductInCartAfterSearching()[pri:0, instance:testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching@6fb05c54]" name="VerifyUserCanAddSpecificProductInCartAfterSearching" duration-ms="14201" started-at="2017-05-17T05:34:35Z" finished-at="2017-05-17T05:34:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with id == add-to-cart-button (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 305 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'wdalwks7q5wbh2', ip: '10.134.51.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=id, value=add-to-cart-button}
+Session ID: f1601bf3-968a-4a6d-afc2-506bf109f5d9
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, unexpectedAlertBehaviour=dismiss, se:ieOptions={elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=false, ie.ensureCleanSession=false, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, ie.useLegacyFileUploadDialogHandling=false, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=https://amazon.in, ie.forceCreateProcessApi=false, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=}, version=11, pageLoadStrategy=normal}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with id == add-to-cart-button (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 305 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'wdalwks7q5wbh2', ip: '10.134.51.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=id, value=add-to-cart-button}
+Session ID: f1601bf3-968a-4a6d-afc2-506bf109f5d9
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, unexpectedAlertBehaviour=dismiss, se:ieOptions={elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=false, ie.ensureCleanSession=false, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, ie.useLegacyFileUploadDialogHandling=false, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=https://amazon.in, ie.forceCreateProcessApi=false, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=}, version=11, pageLoadStrategy=normal}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageKeywords.Product_Page.clickAddToCart(Product_Page.java:29)
+	at testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching.VerifyUserCanAddSpecificProductInCartAfterSearching(TC_VerifyUserCanAddSpecificProductInCartAfterSearching.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanAddSpecificProductInCartAfterSearching -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching@6fb05c54]" name="afterClass" is-config="true" duration-ms="118" started-at="2017-05-17T05:34:50Z" finished-at="2017-05-17T05:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching -->
+      <class name="testScripts.TC_VerifyUserCanLoginAndLogout">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_VerifyUserCanLoginAndLogout@590937cb]" name="beforeClass" is-config="true" duration-ms="6761" started-at="2017-05-17T05:32:53Z" finished-at="2017-05-17T05:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyUserCanLoginAndLogout()[pri:0, instance:testScripts.TC_VerifyUserCanLoginAndLogout@590937cb]" name="verifyUserCanLoginAndLogout" duration-ms="22776" started-at="2017-05-17T05:33:00Z" finished-at="2017-05-17T05:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginAndLogout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TC_VerifyUserCanLoginAndLogout@590937cb]" name="afterClass" is-config="true" duration-ms="16" started-at="2017-05-17T05:33:23Z" finished-at="2017-05-17T05:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.TC_VerifyUserCanLoginAndLogout -->
+      <class name="testScripts.TC_VerifyUserCanApplyPriceFilter">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_VerifyUserCanApplyPriceFilter@237dc815]" name="beforeClass" is-config="true" duration-ms="4024" started-at="2017-05-17T05:34:50Z" finished-at="2017-05-17T05:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="VerifyUserCanApplyPriceFilter()[pri:0, instance:testScripts.TC_VerifyUserCanApplyPriceFilter@237dc815]" name="VerifyUserCanApplyPriceFilter" duration-ms="30105" started-at="2017-05-17T05:34:54Z" finished-at="2017-05-17T05:35:24Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == //li[@id='result_16']//span[contains(@class,'s-price')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 338 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'wdalwks7q5wbh2', ip: '10.134.51.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=xpath, value=//li[@id='result_16']//span[contains(@class,'s-price')]}
+Session ID: 0aac3581-8702-47fe-8825-e1aefec3f990
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, unexpectedAlertBehaviour=dismiss, se:ieOptions={elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=false, ie.ensureCleanSession=false, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, ie.useLegacyFileUploadDialogHandling=false, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=https://amazon.in, ie.forceCreateProcessApi=false, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=}, version=11, pageLoadStrategy=normal}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //li[@id='result_16']//span[contains(@class,'s-price')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 338 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'wdalwks7q5wbh2', ip: '10.134.51.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=xpath, value=//li[@id='result_16']//span[contains(@class,'s-price')]}
+Session ID: 0aac3581-8702-47fe-8825-e1aefec3f990
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, browserName=internet explorer, unexpectedAlertBehaviour=dismiss, se:ieOptions={elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=false, ie.ensureCleanSession=false, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, ie.useLegacyFileUploadDialogHandling=false, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=https://amazon.in, ie.forceCreateProcessApi=false, nativeEvents=false, browserAttachTimeout=0, ie.browserCommandLineSwitches=}, version=11, pageLoadStrategy=normal}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:198)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:295)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:194)
+	at pageKeywords.ProductList_Page.verifyPriceFilter(ProductList_Page.java:33)
+	at testScripts.TC_VerifyUserCanApplyPriceFilter.VerifyUserCanApplyPriceFilter(TC_VerifyUserCanApplyPriceFilter.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanApplyPriceFilter -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TC_VerifyUserCanApplyPriceFilter@237dc815]" name="afterClass" is-config="true" duration-ms="15" started-at="2017-05-17T05:35:24Z" finished-at="2017-05-17T05:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.TC_VerifyUserCanApplyPriceFilter -->
+      <class name="testScripts.TC_VerifyUserCanShopByCategory">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_VerifyUserCanShopByCategory@47b9af7d]" name="beforeClass" is-config="true" duration-ms="3016" started-at="2017-05-17T05:33:57Z" finished-at="2017-05-17T05:34:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifyUserCanShopByCategory()[pri:0, instance:testScripts.TC_VerifyUserCanShopByCategory@47b9af7d]" name="VerifyUserCanShopByCategory" duration-ms="31327" started-at="2017-05-17T05:34:00Z" finished-at="2017-05-17T05:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanShopByCategory -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TC_VerifyUserCanShopByCategory@47b9af7d]" name="afterClass" is-config="true" duration-ms="15" started-at="2017-05-17T05:34:31Z" finished-at="2017-05-17T05:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.TC_VerifyUserCanShopByCategory -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

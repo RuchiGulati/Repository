@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="Browser" value="IE"/>
+    <parameter name="URL" value="https://amazon.in"/>
+    <classes>
+      <class name="testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching">
+        <methods>
+          <include name="VerifyUserCanAddSpecificProductInCartAfterSearching"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TC_VerifyUserCanAddSpecificProductInCartAfterSearching -->
+      <class name="testScripts.TC_VerifyUserCanApplyPriceFilter">
+        <methods>
+          <include name="afterClass"/>
+          <include name="VerifyUserCanApplyPriceFilter"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testScripts.TC_VerifyUserCanApplyPriceFilter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
